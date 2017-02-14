@@ -97,7 +97,7 @@ a:focus {
 
 .dropdown-menu {
   margin-top: -1px;
-  min-width: 180px;
+  min-width: 260px;
 }
 
 .center h2{
@@ -535,11 +535,12 @@ input.search-form:hover {
 
 #feature {
   background: #f2f2f2;
-  padding-bottom: 40px;
+  padding-bottom: 150px;
 }
 
 .features{
   padding: 0;
+  padding-left: 7em;
 }
 
 .feature-wrap {
@@ -678,7 +679,9 @@ input.search-form:hover {
 }
 
 #middle {
-  background: #f2f2f2;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  background: whiteау;
 }
 
 .skill h2{
