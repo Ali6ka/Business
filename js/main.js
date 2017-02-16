@@ -6,6 +6,22 @@ jQuery(function($) {'use strict',
 			interval: 8000
 		});
 	});
+                    
+    // Scrolls to the selected menu item on the page
+    $(function() {
+        $('a[href*=#]:not([href=#],[data-toggle],[data-target],[data-slide])').click(function() {
+            if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') || location.hostname == this.hostname) {
+                var target = $(this.hash);
+                target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+                if (target.length) {
+                    $('html,body').animate({
+                        scrollTop: target.offset().top
+                    }, 1000);
+                    return false;
+                }
+            }
+        });
+    });
 
 
 	// accordian
@@ -53,10 +69,18 @@ jQuery(function($) {'use strict',
 			form_status.html('<p class="text-success">' + data.message + '</p>').delay(3000).fadeOut();
 		});
 	});
-
-	
+                    
 	//goto top
-	$('.gototop').click(function(event) {
+    $(window).scroll(function() {
+        if ( $(window).scrollTop() > 600 ) {
+            $('a.gototop').fadeIn('slow');
+        } else {
+            $('a.gototop').fadeOut('slow');
+        }
+    });
+                    
+                    
+	$('a.gototop').click(function(event) {
 		event.preventDefault();
 		$('html, body').animate({
 			scrollTop: $("body").offset().top

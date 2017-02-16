@@ -55,6 +55,21 @@ a:hover, a:focus {
   color: #d43133;
 }
 
+a.gototop {
+	display:none;
+	width: 60px;
+	height: 60px;
+	text-indent: -9999px;
+	position: fixed;
+	z-index: 999;
+	right: 20px;
+	bottom: 20px;
+	background: url("../images/up-arrow.png") no-repeat center 20%;
+	-webkit-border-radius: 30px;
+	-moz-border-radius: 30px;
+	border-radius: 30px;
+}
+
 hr {
   border-top: 1px solid #e5e5e5;
   border-bottom: 1px solid #fff;
