@@ -551,11 +551,12 @@ input.search-form:hover {
 #feature {
   background: #f2f2f2;
   padding-bottom: 150px;
+    
 }
 
 .features{
   padding: 0;
-  padding-left: 7em;
+  padding-left: 3em;
 }
 
 .feature-wrap {
