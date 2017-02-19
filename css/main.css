@@ -388,15 +388,15 @@ input.search-form:hover {
 }
 
 #main-slider .carousel .carousel-content {
-  margin-top: 150px;
+  margin-top: 20px;
 }
 
 #main-slider .carousel .slide-margin{
-  margin-top: 140px;
+  margin-top: 40px;
 }
 
-#main-slider .carousel h2 {
-  color: #fff;
+#main-slider .carousel h2, h1 {
+  color:   #ff3300;
 }
 
 #main-slider .carousel .btn-slide {
@@ -424,7 +424,7 @@ input.search-form:hover {
   position: absolute;
   width: 100%;
   display: block !important;
-  height: 730px;
+  height: 400px;
   -webkit-transition: opacity ease-in-out 500ms;
   -moz-transition: opacity ease-in-out 500ms;
   -o-transition: opacity ease-in-out 500ms;
