@@ -43,7 +43,7 @@ h4{
   font-size: 16px;
 }
 
-a {
+.anchor-link {
   color: #c52d2f;
   -webkit-transition: color 300ms, background-color 300ms;
   -moz-transition: color 300ms, background-color 300ms;
@@ -51,8 +51,8 @@ a {
   transition:  color 300ms, background-color 300ms;
 }
 
-a:hover, a:focus {
-  color: #d43133;
+a{
+    color: #4e4e4e;
 }
 
 a.gototop {
@@ -282,7 +282,7 @@ input.search-form:hover {
 .navbar {
   border-radius: 0;
   margin-bottom: 0;
-  background:    #fafafa;
+  background-color: whitesmoke;
   padding: 15px 0;
   padding-bottom: 0;
 }
@@ -306,7 +306,7 @@ input.search-form:hover {
 }
 
 .navbar-inverse .navbar-nav > li > a:hover{
-	background-color: #c52d2f;
+  background-color: #c52d2f;
   color: #fff;
 }
 
@@ -325,8 +325,7 @@ input.search-form:hover {
 .navbar-inverse .navbar-nav > .active > a:focus,
 .navbar-inverse .navbar-nav > .open > a,
 .navbar-inverse .navbar-nav > .open > a:hover,
-.navbar-inverse .navbar-nav > .open > a:focus {
-  background-color: #c52d2f;
+.navbar-inverse .navbar-nav > .open > a:focus{
   color: #fff;
 }
 
@@ -350,14 +349,14 @@ input.search-form:hover {
 
 .navbar-inverse .navbar-nav .dropdown-menu > li > a {
   padding: 8px 15px;
-  color: #fff;
+  color:#fff;
 }
 
 .navbar-inverse .navbar-nav .dropdown-menu > li:hover > a,
 .navbar-inverse .navbar-nav .dropdown-menu > li:focus > a,
 .navbar-inverse .navbar-nav .dropdown-menu > li.active > a {
   background-color: #c52d2f;
-  color: #fff;
+    color:#fff;
 }
 
 .navbar-inverse .navbar-nav .dropdown-menu > li:last-child > a {
@@ -682,9 +681,16 @@ input.search-form:hover {
 
 .services-wrap {
   padding: 40px 30px;
-  background: #fff;
+  transition: background-color 0.5s ease;
+  background-color: #fff;
   border-radius: 4px;
   margin: 0 0 40px;
+
+}
+
+.services-wrap:hover {
+  transform: scale(1.1);
+  background-color: gainsboro;
 }
 
 .services-wrap h3 {
@@ -699,7 +705,7 @@ input.search-form:hover {
 #middle {
   margin-top: 0.5em;
   margin-bottom: 0.5em;
-  background: whiteау;
+  background: white;
 }
 
 .skill h2{
