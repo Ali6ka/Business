@@ -327,6 +327,12 @@ input.search-form:hover {
 .navbar-inverse .navbar-nav > .open > a:hover,
 .navbar-inverse .navbar-nav > .open > a:focus{
   color: #fff;
+  background-color: #c52d2f;
+}
+
+.navbar-inverse .navbar-nav .clicked:target{
+  background-color: #c52d2f;
+  color: #fff;
 }
 
 .navbar-inverse .navbar-nav .dropdown-menu {
