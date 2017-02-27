@@ -303,6 +303,8 @@ input.search-form:hover {
   color: #737373;
   line-height: 24px;
   display: inline-block;
+  font-size: 15px;
+  font-family: Verdana;
 }
 
 .navbar-inverse .navbar-nav > li > a:hover{
@@ -829,11 +831,11 @@ input.search-form:hover {
 }
 
 .panel-heading.active{
-  background: #1f1f20;
+  background:  #737373;
 }
 
 .panel-heading.active .panel-title>a{
-  color:#fff;
+  color:#000;
 }
 
 a.accordion-toggle  i{
@@ -963,13 +965,13 @@ a.accordion-toggle  i{
 }
 
 #partner {
-  color: #fff;
+  color:   #4d4d4d;
   text-align: center;
 }
 
 #partner h2, 
 #partner h3 {
-  color: #fff;
+  color:  #4d4d4d;
 }
 
 .partners ul {
@@ -987,6 +989,7 @@ a.accordion-toggle  i{
 #conatcat-info{
   background: #fff url(../images/contact.png) no-repeat 90% 0;
   padding: 30px 0;
+
 }
 
 .contact-info i{
