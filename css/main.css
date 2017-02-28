@@ -831,7 +831,11 @@ input.search-form:hover {
 }
 
 .panel-heading.active{
+<<<<<<< HEAD
   background-color: white;
+=======
+  background:  #737373;
+>>>>>>> 905f5c284c0ca2f7f569f2913c02474dc6d81ea3
 }
 
 .panel-heading.active .panel-title>a{
