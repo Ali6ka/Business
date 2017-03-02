@@ -49,7 +49,7 @@
             </div><!--/.container-->
         </div><!--/.top-bar-->
 
-        <nav class="navbar navbar-default" role="banner">
+        <nav class="navbar navbar-inverse" role="banner">
             <div class="container">
                 <div class="navbar-header">
                     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
@@ -102,32 +102,24 @@
             <div class="carousel-inner">
 
                 <div class="item active" >
-                <video class="item active" width="100%" height="700"  autoplay loop>
-                    <source src="images/slider/slide2.mp4" type="video/mp4">
-                </video>
-                
+                    <div id="videoDiv">
+                     <div id="videoBlock">
+                     <video preload="preload" id="video" autoplay="autoplay" loop="loop" style="width:100%;">
+                         <source src="images/slider/slide2.mp4" type="video/mp4"></source>
+                     </video>
                     <div class="container">
-                        <div class="row slide-margin">
-<!--                        <div class="col-sm-6">
-                                <div class="carousel-content">
-                                    <h1 class="animation animated-item-1">Принимайте лучшие решения на основе данных</h1>
-                                    <h2 class="animation animated-item-2">В последнее десятилетие значительно увеличились объем и разнородность информации, с которыми вынуждены сталкиваться компании...</h2>
-                                    <a class="btn-slide animation animated-item-3" href="#middle">Read More</a>
-                                </div>
-                            </div> -->
+                        <div class="row">
+                     <div class="col-sm-6" id="videoMessage">
+                     <h1>Принимайте лучшие решения <br>на основе данных</h1>
+                    
 
-                            <div class="col-sm-6 hidden-xs animation animated-item-4">
-                                <div class="slider-img">
-<!--                                     <img src="images/slider/img1.png" class="img-responsive">
- -->                                </div>
-                            </div>
-
-                        </div>
-                    </div>
+                     </div>
+                     </div>
+                     </div>
                 </div><!--/.item-->
                 </div><!--/.item-->
-            </div><!--/.carousel-inner-->
-        </div><!--/.carousel-->
+            </div></div><!--/.carousel-inner-->
+
     </section><!--/#main-slider-->
     
     <section id="middle" class="aboutUs">
@@ -379,7 +371,7 @@
                         <ul class="row">
                             <li class="col-sm-6">
                                 <center><address></address>
-                                    <h2>Rossiya Business center</h2>
+                                    <h2>TriSigma <br>(Rossiya Business center)</h2>
                                     <p>Razakova 19 <br>
                                     Office 1107 </p>
                                     <p>Phone: +996 770 771 100 <br>
