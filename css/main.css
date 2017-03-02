@@ -296,7 +296,7 @@ input.search-form:hover {
   padding-bottom: 28px;
 }
 
-.navbar-default .navbar-nav > li > a {
+.navbar-inverse .navbar-nav > li > a {
   padding: 5px 12px;
   margin: 0;
   border-radius: 3px;
@@ -307,31 +307,31 @@ input.search-form:hover {
   font-family: Verdana;
 }
 
-.navbar-default .navbar-nav > li > a:hover{
+.navbar-inverse .navbar-nav > li > a:hover{
   background-color: #c52d2f;
   color:  #000000;
 }
 
-.navbar-default {
+.navbar-inverse {
   border: none;
 }
 
-.navbar-default .navbar-brand {
+.navbar-inverse .navbar-brand {
   font-size: 36px;
   line-height: 50px;
   color: #fff;
 }
 
-.navbar-default .navbar-nav > .active > a,
-.navbar-default .navbar-nav > .active > a:hover,
-.navbar-default .navbar-nav > .active > a:focus,
-.navbar-default .navbar-nav > .open > a,
-.navbar-default .navbar-nav > .open > a:hover,
-.navbar-default .navbar-nav > .open > a:focus{
+.navbar-inverse .navbar-nav > .active > a,
+.navbar-inverse .navbar-nav > .active > a:hover,
+.navbar-inverse .navbar-nav > .active > a:focus,
+.navbar-inverse .navbar-nav > .open > a,
+.navbar-inverse .navbar-nav > .open > a:hover,
+.navbar-inverse .navbar-nav > .open > a:focus{
   color: #fff;
 }
 
-.navbar-default .navbar-nav .dropdown-menu {
+.navbar-inverse .navbar-nav .dropdown-menu {
   background-color: rgba(230, 230, 230, 0.71);
   -webkit-box-shadow: 0 3px 8px rgba(0, 0, 0, 0.125);
   -moz-box-shadow: 0 3px 8px rgba(0, 0, 0, 0.125);
@@ -344,33 +344,33 @@ input.search-form:hover {
   left: 0;
 }
 
-.navbar-default .navbar-nav .dropdown-menu:before{
+.navbar-inverse .navbar-nav .dropdown-menu:before{
   position: absolute;
   top:0;
 }
 
-.navbar-default .navbar-nav .dropdown-menu > li > a {
+.navbar-inverse .navbar-nav .dropdown-menu > li > a {
   padding: 8px 15px;
   color:   #000;
 }
 
-.navbar-defaultdefault .navbar-nav .dropdown-menu > li:hover > a,
-.navbar-defaultdefault .navbar-nav .dropdown-menu > li:focus > a,
-.navbar-defaultdefault .navbar-nav .dropdown-menu > li.active > a {
+.navbar-inverse .navbar-nav .dropdown-menu > li:hover > a,
+.navbar-inverse .navbar-nav .dropdown-menu > li:focus > a,
+.navbar-inverse .navbar-nav .dropdown-menu > li.active > a {
   background-color: rgba(161, 157, 164, 0.74);
     color: #737373;
 }
 
-.navbar-defaultdefaultdefault .navbar-nav .dropdown-menu > li:last-child > a {
+.navbar-inverse .navbar-nav .dropdown-menu > li:last-child > a {
   border-radius: 0 0 3px 3px;
 }
 
-.navbar-default .navbar-nav .dropdown-menu > li.divider {
+.navbar-inverse .navbar-nav .dropdown-menu > li.divider {
   background-color: transparent;
 }
 
-.navbar-default .navbar-collapse,
-.navbar-default .navbar-form {
+.navbar-inverse .navbar-collapse,
+.navbar-inverse .navbar-form {
   border-top: ;
   padding-bottom: 0;
 }
@@ -2535,5 +2535,19 @@ shortcodes page css
 }
 
 
-/*Industries*/
+/*Video*/
+#videoDiv {width: 100%; height: 360px; position: relative;}
+#videoBlock,#videoMessage {width: 100%; height: 360px; position: absolute; top: 70px;}
+#videoMessage *{padding:0.4em; margin:0}
+
+#videoMessage h1{font-size: 3.5em;color:#ffffff;}
+#videoMessage {
+    text-shadow: rgb(0, 0, 0) 2px 2px 2px;
+    color: white;
+    z-index: 99;
+    font-size: 10px;
+}
+@media only screen and (max-width: 479px) {
+    #videoBlock, #video {width: 300%;}
+}
 
