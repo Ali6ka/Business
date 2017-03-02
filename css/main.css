@@ -687,7 +687,7 @@ input.search-form:hover {
 }
 
 #middle {
-  margin-top: -8em;
+  margin-top: -4em;
   margin-bottom: 0.5em;
   background: white;
 }
@@ -1003,6 +1003,9 @@ input.search-form:hover {
 .contact-info h2{
   margin-top: 0;
   color: #000;
+}
+.contact-info p span{
+  color: red;
 }
 
 .contact-info{
